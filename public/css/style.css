@@ -4,11 +4,12 @@
 	--dark-color-a: #667aff;
 	--dark-color-b: #7386ff;
 	--light-color: #e6e9ff;
-	--success-color: #5cb85c;
+	--success-color: #b6b6b6;
 	--error-color: #d9534f;
 }
 
-* {
+* {	
+	color: white;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -18,7 +19,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	/*background: var(--light-color);*/
-	background-image: url("../images/rename.jpg");
+	background-color: rgb(14, 14, 14);
 	height: 100%;
 	background-position: center;
 	background-size: cover;
@@ -36,8 +37,7 @@ a {
 .btn {
 	cursor: pointer;
 	padding: 5px 20px;
-	background: #14de32;
-	color: white;
+	background: #8d8d8d;
 	border: 0;
 	font-size: 17px;
 	padding-top: 15px;
@@ -106,13 +106,12 @@ a {
 .chat-messages .message .meta {
 	font-size: 15px;
 	font-weight: bold;
-	color: var(--dark-color-b);
 	opacity: 0.7;
 	margin-bottom: 7px;
 }
 
 .chat-messages .message .meta span {
-	color: #777;
+
 }
 
 .chat-form-container {
@@ -136,7 +135,6 @@ a {
 .join-container {
 	max-width: 500px;
 	margin: 80px auto;
-	color: #fff;
 	border: 2px solid #7d93db;
 }
 

@@ -27,7 +27,7 @@ io.on('connection', socket => {
     socket.join(user.room);
 
     // Welcome current user
-    socket.emit('message', formatMessage(botName, 'Welcome to Fun-Talk!'));
+    socket.emit('message', formatMessage(botName, 'Welcome to GhettiChat!'));
 
     // Broadcast when a user connects
     socket.broadcast
