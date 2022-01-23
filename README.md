@@ -1,3 +1,3 @@
 # GhettiChat
 
-Forked project, available at http://chat.ghetti.com/ through https://ghetti.online
+Forked project, available at http://chat.ghetti.online/ through https://ghetti.online
